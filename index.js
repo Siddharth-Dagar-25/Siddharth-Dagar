@@ -2,30 +2,30 @@ var timeout;
 var tl = gsap.timeline();
 var cursor = document.querySelector("#minicircle");
 
-// function time(){
-//     var a = 0
-//     setInterval(function(){
-//         a += Math.floor(Math.random()*15)
-//         if(a<100){
-//             document.querySelector("#loader h1").innerHTML = "SIDDHARTH DAGAR-------------" + a+"%"
-//         }else{
-//             a = 100
-//             document.querySelector("#loader h1").innerHTML = "SIDDHARTH DAGAR-------------" + a+"%"
-//         }
-//     },150)
-// };
+function time(){
+    var a = 0
+    setInterval(function(){
+        a += Math.floor(Math.random()*15)
+        if(a<100){
+            document.querySelector("#loader h1").innerHTML = "SIDDHARTH DAGAR-------------" + a+"%"
+        }else{
+            a = 100
+            document.querySelector("#loader h1").innerHTML = "SIDDHARTH DAGAR-------------" + a+"%"
+        }
+    },150)
+};
 
-// tl.to("#loader h1", {
-//     delay: 0.5,
-//     duration: 2,
-//     onStart: time()
-// });
+tl.to("#loader h1", {
+    delay: 0.5,
+    duration: 2,
+    onStart: time()
+});
 
-// tl.to("#loader", {
-//     top: "-100vh",
-//     delay: 0.4,
-//     duration: 0.8
-// });
+tl.to("#loader", {
+    top: "-100vh",
+    delay: 0.4,
+    duration: 0.8
+});
 
 function updateClock() {
     const now = new Date();
