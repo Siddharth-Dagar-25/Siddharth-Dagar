@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siddharth Dagar + Web Developer</title>
+    <title>Siddharth Dagar Web Developer</title>
     <link rel="stylesheet" href="loco.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -12,15 +12,26 @@
 
 <body>
     <div id="loader">
-        <h1>0%</h1>
-    </div>    
+        <div id="name"><h1>SIDDHARTH DAGAR</h1></div> <div class="custom-loader"></div> <div id="percentage"><h1>0%</h1></div>
+    </div>
+    
     <div id="minicircle">view</div>
+
     <div id="main">
 
         <div id="page1" data-scroll-section>
             <div id="nav">
                 <a href="#">Siddharth Dagar</a>
-                <h4>MENU+</h4>
+
+                <div class="dropdown">
+                    <a class="dropmenu">MENU +</a>
+                    <div class="dropdown-content">
+                        <a href="#">STUDY BYTE</a>
+                        <a href="./myProjects.html">PROJECTS</a>
+                        <a href="mailto:sid.dagar0101@gmail.com" target="_blank">CONTACT ME</a>
+                    </div>
+                </div>
+                
             </div>
             <div id="heading">
                 <div class="bounding">
@@ -37,15 +48,15 @@
             </div>
             <div id="sideheading">
                 <div class="bounding">
-                    <h5 class="boundingelem">available for freelance</h5>
+                    <h5 class="boundingelem">available for full-time</h5>
                 </div>
                 <div class="bounding">
-                    <h5 class="boundingelem">work from june 23'</h5>
+                    <h5 class="boundingelem">or internships</h5>
                 </div>
             </div>
             <div id="page1footer">
-                <a href="#">i'm link 1 <i class="ri-arrow-right-up-fill"></i></a>
-                <a href="#">pi'm a link 2 <i class="ri-arrow-right-up-fill"></i></a>
+                <a href="https://drive.google.com/file/d/1ey1xtHETflAUXSWEsSiGpEYB2aYOzAPP/view?usp=sharing" target="_blank">My resume<i class="ri-arrow-right-up-fill"></i></a>
+                <a href="#">btech Final Year student<i class="ri-arrow-right-up-fill"></i></a>
                 <div id="iconset">
                     <div class="circle"><i class="ri-eye-fill"></i></div>
                     <div class="circle"><i class="ri-eye-fill"></i></div>
@@ -75,14 +86,14 @@
                 </div></a>
             </div>
             <div id="more">
-                <a href="#">see more <i class="ri-arrow-right-up-fill"></i></a>
+                <a href="./myProjects.html">see more <i class="ri-arrow-right-up-fill"></i></a>
             </div>
         </div>
 
         <div id="page3" data-scroll-section>
             <div id="aboutme">
                 <div id="imageabout">
-                    <img src="assets/original.jpg" alt="my photo">
+                    <img class="image" src="assets/F41A8ED7-F20C-4542-9252-447C20CBB09E_1_201_a.jpeg" alt="my photo">
                 </div>
                 <div id="textabout">
                     <h5>(about me)</h5>
@@ -102,13 +113,17 @@
                             </a>
                 </div>
             </div>
+            <div id="skills">
+                <h5>(forgot to mention)</h5>
+                I'm Highly Skilled In : <span class="role"></span>
+            </div>
             <div id="scrollup">
                 <div class="circle2"><i class="ri-eye-close-fill"></i></div>
                 <div class="circle2"><i class="ri-eye-close-fill"></i></div>
             </div>
             <div id="page3footer">
                 <div id="footerleft">
-                    <h3>2023 &copy;<i class="fa-thin fa-basketball" style="color: #fff;"></i></h3>
+                    <h3>2023 &copy;</h3>
                     <h3 id="clock">time</h3>
                 </div>
                 <div id="footerright">
@@ -124,6 +139,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Front-End Development",
+                "JavaScript",
+                "React",
+                "Redux",
+                "Back-End Development",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
 </body>
 
 </html>

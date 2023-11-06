@@ -6,14 +6,16 @@ function time(){
     var a = 0
     setInterval(function(){
         a += Math.floor(Math.random()*15)
-        if(a<100){
-            document.querySelector("#loader h1").innerHTML = "SIDDHARTH DAGAR-------------" + a+"%"
-        }else{
-            a = 100
-            document.querySelector("#loader h1").innerHTML = "SIDDHARTH DAGAR-------------" + a+"%"
+        if (a < 100) {
+            document.querySelector("#percentage").textContent = a + "%";
+        } else {
+            a = 100;
+            document.querySelector("#percentage").textContent = a + "%";
         }
     },150)
 };
+
+time();
 
 tl.to("#loader h1", {
     delay: 0.5,
@@ -159,14 +161,26 @@ document.querySelectorAll(".element").forEach(function (element) {
     });
 });
 
-const anchorTags = document.querySelectorAll('a');
+// const anchorTags = document.querySelectorAll('a');
 
-anchorTags.forEach((anchorTag) => {
-    anchorTag.addEventListener('mouseover', () => {
-        anchorTag.style.textDecoration = 'underline';
-    });
+// anchorTags.forEach(function(anchor) {
+//     anchor.addEventListener("click", function(event) {
+//         event.preventDefault();
+//     });
 
-    anchorTag.addEventListener('mouseout', () => {
-        anchorTag.style.textDecoration = 'none';
-    });
-});
+//     anchor.addEventListener("mouseover", function(event) {
+//         event.preventDefault(); 
+//     });
+// });
+
+// anchorTags.forEach((anchorTag) => {
+//     anchorTag.addEventListener('mouseover', () => {
+//         anchorTag.style.textDecoration = 'underline';
+//         anchorTag.style.transition = 'ease 0.3s'
+//     });
+
+//     anchorTag.addEventListener('mouseout', () => {
+//         anchorTag.style.textDecoration = 'none';
+//         anchorTag.style.transition = 'ease 0.3s'
+//     });
+// });
