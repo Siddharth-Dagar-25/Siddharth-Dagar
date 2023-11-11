@@ -79,7 +79,7 @@ html, body{
     width: 20px;
     height: 20px;
     position: absolute;
-    z-index: -999;
+    z-index: 999;
     border-radius: 50%;
     background-color: #fff;
     color: #fff;
@@ -322,7 +322,7 @@ a:hover i.ri-arrow-right-up-fill::before {
     pointer-events: none;
     position: absolute;
     transform: translate(-50%, -50%);
-    z-index: 99;
+    z-index: 500;
     opacity: 0;
 }
 

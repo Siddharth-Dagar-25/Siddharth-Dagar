@@ -161,6 +161,27 @@ document.querySelectorAll(".element").forEach(function (element) {
     });
 });
 
+var project1 = document.getElementById("project1");
+var targetURL = "https://ai-text-summarizer-app.siddharthdagar.repl.co/";
+
+project1.addEventListener("click", function () {
+    window.open(targetURL, '_blank');
+});
+
+var project2 = document.getElementById("project2");
+var targetURL = "https://ai-text-summarizer-app.siddharthdagar.repl.co/";
+
+project2.addEventListener("click", function () {
+    window.open(targetURL, '_blank');
+});
+
+var project3 = document.getElementById("project3");
+var targetURL = "https://ai-text-summarizer-app.siddharthdagar.repl.co/";
+
+project3.addEventListener("click", function () {
+    window.open(targetURL, '_blank');
+});
+
 // const anchorTags = document.querySelectorAll('a');
 
 // anchorTags.forEach(function(anchor) {
