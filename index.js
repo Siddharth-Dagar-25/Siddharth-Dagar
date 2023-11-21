@@ -205,3 +205,4 @@ project3.addEventListener("click", function () {
 //         anchorTag.style.transition = 'ease 0.3s'
 //     });
 // });
+
