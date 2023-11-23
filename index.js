@@ -169,7 +169,7 @@ project1.addEventListener("click", function () {
 });
 
 var project2 = document.getElementById("project2");
-var targetURL = "https://netflixx-gpt-seven.vercel.app/"; 
+var targetURL = "https://netflixx-gpt-seven.vercel.app/";
 
 project2.addEventListener("click", function () {
     window.open(targetURL, '_blank');
