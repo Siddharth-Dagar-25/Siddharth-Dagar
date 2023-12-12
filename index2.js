@@ -50,10 +50,10 @@ function updateClock() {
   updateClock();
 
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#wrapper'),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#wrapper'),
+//     smooth: true
+// });
 
 function firstPageAnim() {
     tl.from("#nav", {
