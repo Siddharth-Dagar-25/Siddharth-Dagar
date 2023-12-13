@@ -211,10 +211,15 @@ a{
 }
 
 #project3 {
-    background-image: url(./assets/project3.png);
+    background-image: url(./assets/todo.png);
 }
 
 #project4 {
+    margin-left: 120px;
+    background-image: url(./assets/project3.png);
+}
+
+#project5 {
     margin-left: 120px;
     background-image: url(./assets/projects/DevSeekho.png);
 }
