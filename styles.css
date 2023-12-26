@@ -546,7 +546,7 @@ a:hover i.ri-arrow-right-up-fill::before {
         min-height: 100vh;
         overflow-y: auto;
     }
-    /* #body{
+    #body{
         width: 100%;
         height: 100%;
     }
@@ -556,12 +556,12 @@ a:hover i.ri-arrow-right-up-fill::before {
     }
     #page2{
         width: 100%;
-        height: 100vh;
+        height: auto;
     }
     #page3{
         width: 100%;
-        height: 100vh;
-    } */
+        height: auto;
+    }
     /* .dropdown{
         display: none;
     } */
@@ -584,5 +584,19 @@ a:hover i.ri-arrow-right-up-fill::before {
     #aboutme{
         display: flex;
         flex-direction: column;
+    }
+    #textabout h5{
+        font-size: 2vw;
+    }
+    #textabout p{
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+    #skills h5{
+        font-size: 10px;
+        line-height: 30px;
+    }
+    #skills{
+        font-size: 10px;
     }
   }
