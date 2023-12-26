@@ -539,11 +539,11 @@ a:hover i.ri-arrow-right-up-fill::before {
     transition: 1s smooth;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     #main{
         overflow-x: hidden;
     }
-    #body{
+    /* #body{
         width: 100%;
         height: 100%;
     }
@@ -558,7 +558,7 @@ a:hover i.ri-arrow-right-up-fill::before {
     #page3{
         width: 100%;
         height: 100vh;
-    }
+    } */
     /* .dropdown{
         display: none;
     } */
@@ -578,4 +578,4 @@ a:hover i.ri-arrow-right-up-fill::before {
         top: 45vh;
         right: 10vh;
     }
-  }
+  } */
