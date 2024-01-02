@@ -343,23 +343,6 @@ a:hover i.ri-arrow-right-up-fill::before {
     font-size: 1.1vw;
 }
 
-/* #see-more-button{
-    text-decoration: none;
-    background-color: black;
-    color: #fff;
-    font-size: 1.3vw;
-    cursor: pointer;
-    border: 1.5px solid #fff;
-    border-radius: 100px;
-    padding: 0.5vw 1.5vw;
-}
-
-#see-more-button:hover{
-    color: black;
-    background-color: #fff;
-    border: 1.5px solid black;  
-} */
-
 #page3{
     width: 100vw;
     background-color: black;
