@@ -408,15 +408,6 @@ a:hover i.ri-arrow-right-up-fill::before {
     text-transform: uppercase;
 }
 
-/* #textabout a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.1vw;
-    border: 1px solid #fff;
-    border-radius: 100px;
-    padding: 0.5vw 1.5vw;
-} */
-
 #contact-me-button{
     text-decoration: none;
     text-transform: uppercase;
